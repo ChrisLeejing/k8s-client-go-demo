@@ -1,23 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0679b066-1c4e-4365-a41a-6f7fb6491efe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clientset-demo/cluster/yaml/test/nginx-demo-create.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clientset-demo/cluster/yaml/test/nginx.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clientset-demo/constant/const_ns.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clientset-demo/controller/ConfigController.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clientset-demo/controller/DeploymentController.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clientset-demo/controller/NameSpaceController.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clientset-demo/controller/ServiceController.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clientset-demo/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clientset-demo/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clientset-demo/image/k8s-crud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clientset-demo/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clientset-demo/util/pointer_util.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clientset-demo/util/prompt_util.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Chris.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Chris.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamicclient-demo/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamicclient-demo/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamicclient-demo/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientset-demo/controller/DeploymentController.go" beforeDir="false" afterPath="$PROJECT_DIR$/clientset-demo/controller/DeploymentController.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +78,7 @@
       <recent name="E:\Code\Go\k8s-client-go-demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build clientset-demo">
+  <component name="RunManager" selected="Go Build.go build dynamicclient-demo">
     <configuration name="go build client-go-demo/restclient-demo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="k8s-client-go-demo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -90,6 +97,15 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build dynamicclient-demo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="k8s-client-go-demo" />
+      <working_directory value="$PROJECT_DIR$/dynamicclient-demo" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/dynamicclient-demo/main.go" />
+      <package value="dynamicclient-demo" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build restclient-go-demo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="k8s-client-go-demo" />
       <working_directory value="$PROJECT_DIR$/restclient-demo" />
@@ -101,6 +117,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build dynamicclient-demo" />
         <item itemvalue="Go Build.go build clientset-demo" />
         <item itemvalue="Go Build.go build restclient-go-demo" />
         <item itemvalue="Go Build.go build client-go-demo/restclient-demo" />
@@ -109,6 +126,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

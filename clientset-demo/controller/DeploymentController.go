@@ -16,7 +16,6 @@ import (
 type DeploymentController struct {
 }
 
-// todo 优化
 func NewDeployment(namespace, name string) *appsv1.Deployment {
 	deployment := &appsv1.Deployment{
 		ObjectMeta: metav1.ObjectMeta{
