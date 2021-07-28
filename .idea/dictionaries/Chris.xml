@@ -1,10 +1,14 @@
 <component name="ProjectDictionaryState">
   <dictionary name="Chris">
     <words>
+      <w>clientset</w>
+      <w>coredns</w>
       <w>corev</w>
       <w>kube</w>
       <w>kubeconfig</w>
       <w>metav</w>
+      <w>nginx</w>
+      <w>springboot</w>
     </words>
   </dictionary>
 </component>

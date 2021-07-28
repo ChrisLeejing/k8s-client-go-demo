@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0679b066-1c4e-4365-a41a-6f7fb6491efe" name="Default Changelist" comment="" />
+    <list default="true" id="0679b066-1c4e-4365-a41a-6f7fb6491efe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientset-demo/cluster/yaml/test/nginx-demo-create.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientset-demo/cluster/yaml/test/nginx.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientset-demo/constant/const_ns.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientset-demo/controller/ConfigController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientset-demo/controller/DeploymentController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientset-demo/controller/NameSpaceController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientset-demo/controller/ServiceController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientset-demo/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientset-demo/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientset-demo/image/k8s-crud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientset-demo/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientset-demo/util/pointer_util.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientset-demo/util/prompt_util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Chris.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Chris.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +32,14 @@
     </option>
   </component>
   <component name="GOROOT" path="D:/Software/Go/go_1.16.3/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1vtQYE7gcOSzK98zjITO8PoQWQB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -29,6 +50,7 @@
     <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
@@ -36,23 +58,35 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/clientset-demo" />
+    <property name="settings.editor.selected.configurable" value="goland.project.structure" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Code\Go\k8s-client-go-demo\clientset-demo" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Code\Go\k8s-client-go-demo\restclient-demo\test" />
       <recent name="E:\Code\Go\k8s-client-go-demo\restclient-demo" />
       <recent name="E:\Code\Go\k8s-client-go-demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build restclient-go-demo">
+  <component name="RunManager" selected="Go Build.go build clientset-demo">
     <configuration name="go build client-go-demo/restclient-demo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="k8s-client-go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/restclient-demo/main.go" />
       <package value="client-go-demo/restclient-demo" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build clientset-demo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="k8s-client-go-demo" />
+      <working_directory value="$PROJECT_DIR$/clientset-demo" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/clientset-demo/main.go" />
+      <package value="clientset-demo" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -67,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build clientset-demo" />
         <item itemvalue="Go Build.go build restclient-go-demo" />
         <item itemvalue="Go Build.go build client-go-demo/restclient-demo" />
       </list>
@@ -92,25 +127,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="847" y="379" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627380325865" />
-    <state width="1877" height="439" key="GridCell.Tab.0.bottom" timestamp="1627380734059">
+    <state x="801" y="417" key="Github.ShareDialog" timestamp="1627439835637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="439" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627380734059" />
-    <state width="1877" height="439" key="GridCell.Tab.0.center" timestamp="1627380734059">
+    <state x="801" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627439835637" />
+    <state x="791" y="223" key="Github.UntrackedFilesDialog" timestamp="1627439897800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="439" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627380734059" />
-    <state width="1877" height="439" key="GridCell.Tab.0.left" timestamp="1627380734058">
+    <state x="791" y="223" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627439897800" />
+    <state width="1877" height="388" key="GridCell.Tab.0.bottom" timestamp="1627441518140">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="439" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627380734058" />
-    <state width="1877" height="439" key="GridCell.Tab.0.right" timestamp="1627380734059">
+    <state width="1877" height="388" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627441518140" />
+    <state width="1877" height="388" key="GridCell.Tab.0.center" timestamp="1627441518140">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="439" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627380734059" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1627380678819">
+    <state width="1877" height="388" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627441518140" />
+    <state width="1877" height="388" key="GridCell.Tab.0.left" timestamp="1627441518140">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1627380678819" />
+    <state width="1877" height="388" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627441518140" />
+    <state width="1877" height="388" key="GridCell.Tab.0.right" timestamp="1627441518140">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="388" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627441518140" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1627440805138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1627440805138" />
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1627440083589">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1627440083589" />
   </component>
 </project>

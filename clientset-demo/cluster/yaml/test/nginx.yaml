@@ -1,0 +1,49 @@
+# 10.28.1.202 /app/nginx/nginx.yml
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: nginx
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: nginx
+  name: nginx
+  labels:
+    app: nginx
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: nginx
+      labels:
+        app: nginx
+  selector:
+    matchLabels:
+      app: nginx
+    spec:
+      containers:
+             - name: nginx
+        image: nginx:1.13
+        ports:
+             - containerPort: 80
+        imagePullPolicy: IfNotPresent
+      restartPolicy: Always
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: nginx
+  name: nginx
+spec:
+  selector:
+    app: nginx
+  ports:
+    - port: 80
+      targetPort: 80
+      nodePort: 30007
+  type: NodePort
