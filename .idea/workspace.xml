@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0679b066-1c4e-4365-a41a-6f7fb6491efe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dynamicclient-demo/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicclient-demo/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicclient-demo/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discoveryclient-demo/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clientset-demo/controller/DeploymentController.go" beforeDir="false" afterPath="$PROJECT_DIR$/clientset-demo/controller/DeploymentController.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +75,7 @@
       <recent name="E:\Code\Go\k8s-client-go-demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build dynamicclient-demo">
+  <component name="RunManager" selected="Go Build.go build discoveryclient-demo">
     <configuration name="go build client-go-demo/restclient-demo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="k8s-client-go-demo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -94,6 +91,15 @@
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/clientset-demo/main.go" />
       <package value="clientset-demo" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build discoveryclient-demo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="k8s-client-go-demo" />
+      <working_directory value="$PROJECT_DIR$/discoveryclient-demo" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/discoveryclient-demo/main.go" />
+      <package value="discoveryclient-demo" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -117,6 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build discoveryclient-demo" />
         <item itemvalue="Go Build.go build dynamicclient-demo" />
         <item itemvalue="Go Build.go build clientset-demo" />
         <item itemvalue="Go Build.go build restclient-go-demo" />
@@ -163,22 +170,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="791" y="223" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627439897800" />
-    <state width="1877" height="388" key="GridCell.Tab.0.bottom" timestamp="1627441518140">
+    <state width="1877" height="305" key="GridCell.Tab.0.bottom" timestamp="1627454221919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="388" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627441518140" />
-    <state width="1877" height="388" key="GridCell.Tab.0.center" timestamp="1627441518140">
+    <state width="1877" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627454221919" />
+    <state width="1877" height="305" key="GridCell.Tab.0.center" timestamp="1627454221919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="388" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627441518140" />
-    <state width="1877" height="388" key="GridCell.Tab.0.left" timestamp="1627441518140">
+    <state width="1877" height="305" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627454221919" />
+    <state width="1877" height="305" key="GridCell.Tab.0.left" timestamp="1627454221919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="388" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627441518140" />
-    <state width="1877" height="388" key="GridCell.Tab.0.right" timestamp="1627441518140">
+    <state width="1877" height="305" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627454221919" />
+    <state width="1877" height="305" key="GridCell.Tab.0.right" timestamp="1627454221919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="388" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627441518140" />
+    <state width="1877" height="305" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627454221919" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1627440805138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
